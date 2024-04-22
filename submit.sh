@@ -1,0 +1,1 @@
+python csub.py -n test -u template/user_template.yaml -g 0 -t 43200 -i registry.rcp.epfl.ch/mlbio/gadetski-torch --command "python run.py --M 1 --root_dir /mlbio_scratch/gadetski/hume_theory_results"

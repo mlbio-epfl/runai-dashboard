@@ -174,7 +174,7 @@ metadata:
   labels:
     PreviousJob: "true"
   name: {args.name}
-  namespace: runai-mlo-{user_cfg['user']}
+  namespace: runai-mlbio-{user_cfg['user']}
 spec:
   name:
     value: {args.name}
@@ -221,9 +221,9 @@ spec:
     items:
       pvc--0:
         value:
-          claimName: runai-mlo-{user_cfg['user']}-scratch
+          claimName: runai-mlbio-{user_cfg['user']}-scratch
           existingPvc: true
-          path: /mloscratch
+          path: /mlbio_scratch
           readOnly: false
   runAsGid:
     value: {user_cfg['gid']}

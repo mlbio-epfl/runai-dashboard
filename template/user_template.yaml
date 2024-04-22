@@ -1,10 +1,10 @@
 #DO NOT CHANGE THIS FILE, CREATE A COPY IN THE ROOT FOLDER OF THE REPO
-user: <enter username>
-uid: <enter uid>
-group: MLO-unit
-gid: 75545
+user: gadetski
+uid: 259523
+group: mlbio
+gid: 11183
 wandb_api_key: <enter api key>
-working_dir: /mloscratch/homes/<enter username>
+working_dir: /mlbio_scratch/gadetski/hume_theory
 symlinks: # list of symlinks to create (enter 'dir' or 'file' and the path)')
   .ssh: [dir, .ssh]
   .bashrc: [file, .bashrc]
